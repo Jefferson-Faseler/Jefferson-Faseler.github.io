@@ -92,9 +92,33 @@ ol {
   list-style-image: url(images/egg_icon.png);
 }
 
+#footer-nav {
+  font-size: 8pt;
+  padding: 1px;
+}
+
+#footer-nav p {
+  padding: 0;
+}
+
+#top-of-page {
+  margin-left: 50%;
+}
+
+#contact-me {
+  margin-left: 50%;
+}
+
 a:link {
   color: #89A700;
 }
 a:visited {
   color: #2C0A79;
+}
+
+@media screen and (max-width: 700px) {
+  #footer-nav {
+    font-size: 12pt;
+    padding: 15px;
+  }
 }
