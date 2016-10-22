@@ -25,7 +25,7 @@ section {
   margin-bottom: 15px;
 }
 
-section #figure-images {
+.figure-images {
   display: inline-block;
   margin: 1%;
   padding: 15px;
@@ -36,7 +36,7 @@ section #figure-images {
   background-color: #2E263E;
 }
 
-#figure-images:last-child {
+.figure-images:last-child {
   float: right;
 }
 
@@ -45,7 +45,7 @@ section img {
   border-radius: 5px;
 }
 
-section #figure-cap {
+.figure-cap {
   padding: 10px;
   margin-top: 3%;
   vertical-align: top;
@@ -86,18 +86,6 @@ td {
 
 .amount {
   border-right: 1px solid black;
-}
-
-.tool {
-  border-right: 1px solid black;
-}
-
-.spatula {
-  text-align: right;
-}
-
-.pan {
-  text-align: right;
 }
 
 ol {
