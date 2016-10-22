@@ -4,10 +4,12 @@
   <title>
     The Perfect Omelette
   </title>
-
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
+<section>
   <h1 id="top">How to make the perfect omelette</h1>
     <p>
       If breakfast is the most important meal of the day and the egg is a cornerstone of the culinary world, then the omelette must be the holy grail of all cooking. Why not master it?
@@ -15,64 +17,80 @@
     <p>
       Below I will provide you with a list of detailed instructions, but before we start I have to warn you. This is some next level stuff. 
     </p>
-    <figure>
+</section> 
+<br>
+<br>
+<section class="images">
+  <h2>What you're looking for</h2>
+    <figure class="figure-images">
       <img src="images/badomelette.jpg" 
         alt="An error occurred. Sorry you can't see the image. Just imagine a poorly made omelette" 
         title="This Is A Poorly Made Omelette"/>
-        <figcaption>
+        <figcaption class="figure-cap">
           <p>
             <i>
             What is this amateur stuff? No finesse!</i>
           </p>
         </figcaption>
     </figure>
-    <figure>
+    <figure class="figure-images">
       <img src="images/perfectomelette.jpg"
         alt="An error occurred. Sorry you can't see the image. Just imagine a perfectly made omelette"
         title="This Is A Perfectly Made Omelette" />
-        <figcaption>
+        <figcaption class="figure-cap">
           <p>
             <i>
-            This is the kind of omelette Gordon Ramsay eats when he wakes up.
+            This is the kind of omelette Gordon Ramsay eats.
             </i>
           </p>
         </figcaption>
     </figure>
+</section>
+
+<article>
   <h2>Let's make an omelette</h2>
-    <table border="1">
+    <table>
       <tr>
-        <th colspan="3">Ingredients</th>
+        <th>#</th>
+        <th colspan="2">Ingredients</th>
       </tr>
       <tr>
-        <td>3</td>
+        <td class="amount">3</td>
         <td colspan="2">
         Room-temperature large eggs
         </td>
       </tr>
       <tr>
-        <td>1</td>
+        <td class="amount">1</td>
         <td colspan="2">
         Teaspoon of room-temperature butter
         </td>
       </tr>
       <tr>
-        <td>1</td>
+        <td class="amount">1</td>
         <td colspan="2">
         Pinch of kosher or other large grain salt
         </td>
       </tr>
+    </table>
+    <table> 
       <tr>
-        <th colspan="3">Utensils</th>
+        <th colspan="2">Utensils</th>
       </tr>
       <tr>
-        <td>Fork</td>
-        <td>Mixing bowl</td>
-        <td>Soft silicone spatula</td>
+        <td colspan="2">Fork</td>
       </tr>
       <tr>
-        <td colspan="3">10 inch frying pan</td>
+        <td colspan="2">Soft silicone spatula</td>
+      </tr>
+      <tr>
+        <td colspan="2">Mixing bowl</td>
+      </tr>
+      <tr>
+        <td colspan="2">10 inch frying pan</td>
       </tr>
     </table>
+    <br>
     <ol>
       <li>Using <em>room-temperature</em> eggs, crack the 3 large eggs into a mixing bowl and whisk <strong>with a fork</strong> (this keeps air out of your eggs). Then add a pinch of kosher or large grain salt. 
       </li>
@@ -94,8 +112,9 @@
         Now that the omelette has landed on your breakfast plate, fold that last 1/3 and cover it in your ingredients. That's right. You don't add your ingredients until it is done cooking (adding ingredients to your omelette while it cooks makes for an uneven egg that usually requires more time on the skillet, resulting in the dry and rubbery omelette you used to make).
       </li>
     </ol>
+</article>
 
-<section>
+<section id="footer-nav">
 <h3>Credit:</h3>
 <footer>
   <p>
@@ -107,11 +126,11 @@
     The free license original photo for the perfect omelette is found <a href="https://www.flickr.com/photos/galant/3285072012">here</a>. Thanks go out to thebittenword.com for creating this perfect masterpiece.
   </p>
   <p>
-    <a href="#top">Top</a>
+    <a href="#top" id="top-of-page">Top</a>
   </p>
 
 <nav>
-  <a href="contact.html">Contact</a>
+  <a href="contact.html" id="contact-me">Contact</a>
 </nav>
 </footer>
 </section>
